@@ -14,5 +14,7 @@ class BeerDataModel{
     public var abv: Float?
     public var ibu: Int?
     public var first_brewed: String?
+    public var food_pairing: [String] = []
+    public var brewers_tips: String?
 }
 

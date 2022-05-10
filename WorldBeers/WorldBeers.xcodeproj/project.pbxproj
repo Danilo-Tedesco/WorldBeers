@@ -10,6 +10,9 @@
 		1344570BAE7823B49C41133C /* Pods_WorldBeers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68D1AED67C40000AA47C9CD /* Pods_WorldBeers.framework */; };
 		51047EC9282ABFEC00FB245B /* RequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51047EC8282ABFEC00FB245B /* RequestAPI.swift */; };
 		51047ECB282AD3F000FB245B /* BeerDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51047ECA282AD3F000FB245B /* BeerDataModel.swift */; };
+		513517B7282B163E00A8C59B /* BeerDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513517B6282B163E00A8C59B /* BeerDataViewModel.swift */; };
+		513517BB282B1B4E00A8C59B /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513517BA282B1B4E00A8C59B /* TableViewCell.swift */; };
+		513517BD282B2A8F00A8C59B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 513517BC282B2A8F00A8C59B /* DetailViewController.swift */; };
 		51C526DD282A88AD00318CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C526DC282A88AD00318CA3 /* AppDelegate.swift */; };
 		51C526E1282A88AD00318CA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C526E0282A88AD00318CA3 /* ViewController.swift */; };
 		51C526E4282A88AD00318CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C526E2282A88AD00318CA3 /* Main.storyboard */; };
@@ -44,6 +47,9 @@
 		217DB817AD8F25F046EB12DB /* Pods-WorldBeers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldBeers.debug.xcconfig"; path = "Target Support Files/Pods-WorldBeers/Pods-WorldBeers.debug.xcconfig"; sourceTree = "<group>"; };
 		51047EC8282ABFEC00FB245B /* RequestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAPI.swift; sourceTree = "<group>"; };
 		51047ECA282AD3F000FB245B /* BeerDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDataModel.swift; sourceTree = "<group>"; };
+		513517B6282B163E00A8C59B /* BeerDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDataViewModel.swift; sourceTree = "<group>"; };
+		513517BA282B1B4E00A8C59B /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		513517BC282B2A8F00A8C59B /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		51C526D9282A88AD00318CA3 /* WorldBeers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldBeers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C526DC282A88AD00318CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C526E0282A88AD00318CA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -139,6 +145,9 @@
 				51C526EA282A88AD00318CA3 /* Info.plist */,
 				51047EC8282ABFEC00FB245B /* RequestAPI.swift */,
 				51047ECA282AD3F000FB245B /* BeerDataModel.swift */,
+				513517B6282B163E00A8C59B /* BeerDataViewModel.swift */,
+				513517BA282B1B4E00A8C59B /* TableViewCell.swift */,
+				513517BC282B2A8F00A8C59B /* DetailViewController.swift */,
 			);
 			path = WorldBeers;
 			sourceTree = "<group>";
@@ -420,7 +429,10 @@
 				51C526E1282A88AD00318CA3 /* ViewController.swift in Sources */,
 				51047EC9282ABFEC00FB245B /* RequestAPI.swift in Sources */,
 				51C526DD282A88AD00318CA3 /* AppDelegate.swift in Sources */,
+				513517BB282B1B4E00A8C59B /* TableViewCell.swift in Sources */,
 				51047ECB282AD3F000FB245B /* BeerDataModel.swift in Sources */,
+				513517B7282B163E00A8C59B /* BeerDataViewModel.swift in Sources */,
+				513517BD282B2A8F00A8C59B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -30,30 +30,53 @@ class RequestAPI{
 
             do
             {
+                var beersModel : [BeerDataModel] = []
                 let object = try JSONSerialization.jsonObject(with: data!, options: .allowFragments)
                 if let dictionary = object as? [[String: Any]] {
                     dictionary.forEach {
-                        var beer = BeerDataModel()
-                        if let beerValue = $0 as? [String: Any]{
-                            beerValue.forEach{
-                                if let key = $0 as? String{
-                                    if(key == "name"){
-                                        beer.name = $1 as? String
-                                    }
-                                    if(key == "description")
-                                }
+                        let beerData = BeerDataModel()
+                        let beerValue = $0
+                        beerValue.forEach{
+                            let key = $0
+                            switch(key){
+                            case "name":
+                                beerData.name = $1 as? String
+                                break
+                            case "description":
+                                beerData.description = $1 as? String
+                                break
+                            case "image_url":
+                                beerData.image_url = $1 as? String
+                                break
+                            case "abv":
+                                beerData.abv = $1 as? Float
+                                break
+                            case "ibu":
+                                beerData.ibu = $1 as? Int
+                                break
+                            case "first_brewed":
+                                beerData.first_brewed = $1 as? String
+                                break
+                            case "food_pairing":
+                                beerData.food_pairing = $1 as? [String] ?? []
+                                break
+                            case "brewers_tips":
+                                beerData.brewers_tips = $1 as? String
+                                break
+                            default:
+                                break
                             }
                         }
-                                        
+                        beersModel.append(beerData)
                     }
-                    //print(dictionary)
+                    handler?(true, beersModel)
                 }
                 else{
-                    handler?(false, [:])
+                    handler?(false, [])
                 }
             } catch let error as NSError {
                 print(error.localizedDescription)
-                handler?(false, [:])
+                handler?(false, [])
             }
         }
         task.resume()
