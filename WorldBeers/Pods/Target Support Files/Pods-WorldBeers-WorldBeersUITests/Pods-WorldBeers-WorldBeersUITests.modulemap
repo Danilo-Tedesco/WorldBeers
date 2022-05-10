@@ -1,0 +1,6 @@
+framework module Pods_WorldBeers_WorldBeersUITests {
+  umbrella header "Pods-WorldBeers-WorldBeersUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

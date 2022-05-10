@@ -1,0 +1,23 @@
+{
+  "pins" : [
+    {
+      "identity" : "glide",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kaishin/glide",
+      "state" : {
+        "revision" : "b75169bd33d64a74b7e76ad395aefcdc9afb0051",
+        "version" : "0.4.3"
+      }
+    },
+    {
+      "identity" : "swift-nio",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-nio.git",
+      "state" : {
+        "revision" : "124119f0bb12384cef35aa041d7c3a686108722d",
+        "version" : "2.40.0"
+      }
+    }
+  ],
+  "version" : 2
+}

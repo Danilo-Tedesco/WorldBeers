@@ -1,0 +1,6 @@
+framework module Glide {
+  umbrella header "Glide-umbrella.h"
+
+  export *
+  module * { export * }
+}

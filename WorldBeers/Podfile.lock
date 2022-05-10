@@ -1,0 +1,16 @@
+PODS:
+  - Glide (1.0.4)
+
+DEPENDENCIES:
+  - Glide (~> 1.0)
+
+SPEC REPOS:
+  trunk:
+    - Glide
+
+SPEC CHECKSUMS:
+  Glide: 3e55d02691de42688448da98eea7decbef20c4bd
+
+PODFILE CHECKSUM: 7050a6445f91591ec98a5ef13c3ae7f195f11e1f
+
+COCOAPODS: 1.11.2

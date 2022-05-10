@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1344570BAE7823B49C41133C /* Pods_WorldBeers.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E68D1AED67C40000AA47C9CD /* Pods_WorldBeers.framework */; };
+		51047EC9282ABFEC00FB245B /* RequestAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51047EC8282ABFEC00FB245B /* RequestAPI.swift */; };
+		51047ECB282AD3F000FB245B /* BeerDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51047ECA282AD3F000FB245B /* BeerDataModel.swift */; };
 		51C526DD282A88AD00318CA3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C526DC282A88AD00318CA3 /* AppDelegate.swift */; };
 		51C526E1282A88AD00318CA3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C526E0282A88AD00318CA3 /* ViewController.swift */; };
 		51C526E4282A88AD00318CA3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 51C526E2282A88AD00318CA3 /* Main.storyboard */; };
@@ -15,6 +18,8 @@
 		51C526F4282A88AE00318CA3 /* WorldBeersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C526F3282A88AE00318CA3 /* WorldBeersTests.swift */; };
 		51C526FE282A88AE00318CA3 /* WorldBeersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C526FD282A88AE00318CA3 /* WorldBeersUITests.swift */; };
 		51C52700282A88AE00318CA3 /* WorldBeersUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51C526FF282A88AE00318CA3 /* WorldBeersUITestsLaunchTests.swift */; };
+		BFF0065073301AD68D922787 /* Pods_WorldBeers_WorldBeersUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8089AFE2D06B493718699DD9 /* Pods_WorldBeers_WorldBeersUITests.framework */; };
+		EB2066633403048B3627541E /* Pods_WorldBeersTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4E584A89144DD069E2906C8 /* Pods_WorldBeersTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +40,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		183433EB8DEF9D6E65FDB4FB /* Pods-WorldBeers-WorldBeersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldBeers-WorldBeersUITests.debug.xcconfig"; path = "Target Support Files/Pods-WorldBeers-WorldBeersUITests/Pods-WorldBeers-WorldBeersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		217DB817AD8F25F046EB12DB /* Pods-WorldBeers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldBeers.debug.xcconfig"; path = "Target Support Files/Pods-WorldBeers/Pods-WorldBeers.debug.xcconfig"; sourceTree = "<group>"; };
+		51047EC8282ABFEC00FB245B /* RequestAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestAPI.swift; sourceTree = "<group>"; };
+		51047ECA282AD3F000FB245B /* BeerDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeerDataModel.swift; sourceTree = "<group>"; };
 		51C526D9282A88AD00318CA3 /* WorldBeers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldBeers.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C526DC282A88AD00318CA3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		51C526E0282A88AD00318CA3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +56,13 @@
 		51C526F9282A88AE00318CA3 /* WorldBeersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WorldBeersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		51C526FD282A88AE00318CA3 /* WorldBeersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldBeersUITests.swift; sourceTree = "<group>"; };
 		51C526FF282A88AE00318CA3 /* WorldBeersUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldBeersUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		66ADA207542556AA1A3F023C /* Pods-WorldBeersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldBeersTests.debug.xcconfig"; path = "Target Support Files/Pods-WorldBeersTests/Pods-WorldBeersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		8089AFE2D06B493718699DD9 /* Pods_WorldBeers_WorldBeersUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldBeers_WorldBeersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		91DFA3C1D0402CDBCF91746A /* Pods-WorldBeersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldBeersTests.release.xcconfig"; path = "Target Support Files/Pods-WorldBeersTests/Pods-WorldBeersTests.release.xcconfig"; sourceTree = "<group>"; };
+		A4E584A89144DD069E2906C8 /* Pods_WorldBeersTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldBeersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B57A9F4313B6EE3A8F862AEE /* Pods-WorldBeers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldBeers.release.xcconfig"; path = "Target Support Files/Pods-WorldBeers/Pods-WorldBeers.release.xcconfig"; sourceTree = "<group>"; };
+		E68D1AED67C40000AA47C9CD /* Pods_WorldBeers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WorldBeers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F6ED9ABA024A5AEC0D6003F1 /* Pods-WorldBeers-WorldBeersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WorldBeers-WorldBeersUITests.release.xcconfig"; path = "Target Support Files/Pods-WorldBeers-WorldBeersUITests/Pods-WorldBeers-WorldBeersUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1344570BAE7823B49C41133C /* Pods_WorldBeers.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +78,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB2066633403048B3627541E /* Pods_WorldBeersTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +86,26 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFF0065073301AD68D922787 /* Pods_WorldBeers_WorldBeersUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0754A3B91BA872C987D1BA10 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				217DB817AD8F25F046EB12DB /* Pods-WorldBeers.debug.xcconfig */,
+				B57A9F4313B6EE3A8F862AEE /* Pods-WorldBeers.release.xcconfig */,
+				183433EB8DEF9D6E65FDB4FB /* Pods-WorldBeers-WorldBeersUITests.debug.xcconfig */,
+				F6ED9ABA024A5AEC0D6003F1 /* Pods-WorldBeers-WorldBeersUITests.release.xcconfig */,
+				66ADA207542556AA1A3F023C /* Pods-WorldBeersTests.debug.xcconfig */,
+				91DFA3C1D0402CDBCF91746A /* Pods-WorldBeersTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		51C526D0282A88AD00318CA3 = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +113,8 @@
 				51C526F2282A88AE00318CA3 /* WorldBeersTests */,
 				51C526FC282A88AE00318CA3 /* WorldBeersUITests */,
 				51C526DA282A88AD00318CA3 /* Products */,
+				0754A3B91BA872C987D1BA10 /* Pods */,
+				F1AF01FC15127D9CF0926345 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,12 +131,14 @@
 		51C526DB282A88AD00318CA3 /* WorldBeers */ = {
 			isa = PBXGroup;
 			children = (
+				51C5270C282A892D00318CA3 /* StoryBoard */,
 				51C526DC282A88AD00318CA3 /* AppDelegate.swift */,
 				51C526E0282A88AD00318CA3 /* ViewController.swift */,
-				51C526E2282A88AD00318CA3 /* Main.storyboard */,
 				51C526E5282A88AD00318CA3 /* Assets.xcassets */,
 				51C526E7282A88AD00318CA3 /* LaunchScreen.storyboard */,
 				51C526EA282A88AD00318CA3 /* Info.plist */,
+				51047EC8282ABFEC00FB245B /* RequestAPI.swift */,
+				51047ECA282AD3F000FB245B /* BeerDataModel.swift */,
 			);
 			path = WorldBeers;
 			sourceTree = "<group>";
@@ -124,6 +160,24 @@
 			path = WorldBeersUITests;
 			sourceTree = "<group>";
 		};
+		51C5270C282A892D00318CA3 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				51C526E2282A88AD00318CA3 /* Main.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		F1AF01FC15127D9CF0926345 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E68D1AED67C40000AA47C9CD /* Pods_WorldBeers.framework */,
+				8089AFE2D06B493718699DD9 /* Pods_WorldBeers_WorldBeersUITests.framework */,
+				A4E584A89144DD069E2906C8 /* Pods_WorldBeersTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -131,9 +185,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51C52703282A88AE00318CA3 /* Build configuration list for PBXNativeTarget "WorldBeers" */;
 			buildPhases = (
+				B59CB430544B155C37D96E27 /* [CP] Check Pods Manifest.lock */,
 				51C526D5282A88AD00318CA3 /* Sources */,
 				51C526D6282A88AD00318CA3 /* Frameworks */,
 				51C526D7282A88AD00318CA3 /* Resources */,
+				50FC0C2405D7528CA81FBF9A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -148,6 +204,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51C52706282A88AE00318CA3 /* Build configuration list for PBXNativeTarget "WorldBeersTests" */;
 			buildPhases = (
+				3E626E1DE46B6A0493E4E8CE /* [CP] Check Pods Manifest.lock */,
 				51C526EB282A88AE00318CA3 /* Sources */,
 				51C526EC282A88AE00318CA3 /* Frameworks */,
 				51C526ED282A88AE00318CA3 /* Resources */,
@@ -166,9 +223,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 51C52709282A88AE00318CA3 /* Build configuration list for PBXNativeTarget "WorldBeersUITests" */;
 			buildPhases = (
+				A498F832A6CE571B54425DD2 /* [CP] Check Pods Manifest.lock */,
 				51C526F5282A88AE00318CA3 /* Sources */,
 				51C526F6282A88AE00318CA3 /* Frameworks */,
 				51C526F7282A88AE00318CA3 /* Resources */,
+				A929A9DD4B7AB930C80F5052 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -250,13 +309,118 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E626E1DE46B6A0493E4E8CE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorldBeersTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		50FC0C2405D7528CA81FBF9A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldBeers/Pods-WorldBeers-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldBeers/Pods-WorldBeers-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorldBeers/Pods-WorldBeers-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A498F832A6CE571B54425DD2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorldBeers-WorldBeersUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A929A9DD4B7AB930C80F5052 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldBeers-WorldBeersUITests/Pods-WorldBeers-WorldBeersUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-WorldBeers-WorldBeersUITests/Pods-WorldBeers-WorldBeersUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-WorldBeers-WorldBeersUITests/Pods-WorldBeers-WorldBeersUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B59CB430544B155C37D96E27 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WorldBeers-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		51C526D5282A88AD00318CA3 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				51C526E1282A88AD00318CA3 /* ViewController.swift in Sources */,
+				51047EC9282ABFEC00FB245B /* RequestAPI.swift in Sources */,
 				51C526DD282A88AD00318CA3 /* AppDelegate.swift in Sources */,
+				51047ECB282AD3F000FB245B /* BeerDataModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +592,7 @@
 		};
 		51C52704282A88AE00318CA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 217DB817AD8F25F046EB12DB /* Pods-WorldBeers.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -456,6 +621,7 @@
 		};
 		51C52705282A88AE00318CA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B57A9F4313B6EE3A8F862AEE /* Pods-WorldBeers.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -484,6 +650,7 @@
 		};
 		51C52707282A88AE00318CA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66ADA207542556AA1A3F023C /* Pods-WorldBeersTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -504,6 +671,7 @@
 		};
 		51C52708282A88AE00318CA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91DFA3C1D0402CDBCF91746A /* Pods-WorldBeersTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -524,6 +692,7 @@
 		};
 		51C5270A282A88AE00318CA3 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 183433EB8DEF9D6E65FDB4FB /* Pods-WorldBeers-WorldBeersUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -542,6 +711,7 @@
 		};
 		51C5270B282A88AE00318CA3 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F6ED9ABA024A5AEC0D6003F1 /* Pods-WorldBeers-WorldBeersUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

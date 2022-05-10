@@ -1,0 +1,1060 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BB8FF168D0BCFA92DCED66AE4617A06 /* Pods-WorldBeers-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C2E6132722D60740C076A10FAF5D896F /* Pods-WorldBeers-dummy.m */; };
+		11FBF74AA8D9A50C4327FD7B2BAC3950 /* GlideClient+Effects.h in Headers */ = {isa = PBXBuildFile; fileRef = CAB71E8A9CEE5362371250FF214453CE /* GlideClient+Effects.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14EBCCCDE04C515FBBBF5D5B28D73D79 /* GlideClient+Size.h in Headers */ = {isa = PBXBuildFile; fileRef = B1DA116B5C815CF0E869E0570C53C94B /* GlideClient+Size.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DD76A2F433F4BA7E58961F6A383D667 /* GlideClient+Border.m in Sources */ = {isa = PBXBuildFile; fileRef = D07476AAD535430CD8D821C49602A1EF /* GlideClient+Border.m */; };
+		1F12E5065655A9BA5FD3B91951C62E79 /* GlideClient+Watermarks.h in Headers */ = {isa = PBXBuildFile; fileRef = 0E02988D892FBA9F4BB38DA5EC3202F2 /* GlideClient+Watermarks.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2E9249F55FF3184FF87777A907D61ED5 /* GlideClient.h in Headers */ = {isa = PBXBuildFile; fileRef = 8613549635030C94FA70CC4769B4FCE3 /* GlideClient.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3346757CF5EF86B26BECAF7258B4F97A /* GlideClient+Adjustments.h in Headers */ = {isa = PBXBuildFile; fileRef = CC4CCE7C35D423EDE8909916DA7065BA /* GlideClient+Adjustments.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		36101A83FE6B53DC27DBDA022D99FFEC /* GlideClient+Orientation.h in Headers */ = {isa = PBXBuildFile; fileRef = 9ED1855422A06699E764AE79E278B26A /* GlideClient+Orientation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3E51980F72BEF4F71D30FC3FF79BAD9F /* GlideClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 68BC7EC1108253258CA1480A87751FDE /* GlideClient.m */; };
+		54A4ADCD275A9168E5C885E90BD2A224 /* Pods-WorldBeersTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = DE21E37BFBDFBAEE33450A5CA669B381 /* Pods-WorldBeersTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		577725E02CC8C642DCAD9752C85DEC6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		5C6A1B7976CB94785D152F71B4DAC5E0 /* GlideClient+Crop.h in Headers */ = {isa = PBXBuildFile; fileRef = A74842A375AB6A5BFF33D4312C647907 /* GlideClient+Crop.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5D278A990B8752F1FB4501790FA1919C /* GlideClient+Encode.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BAFBB96A2577F3253849934E00834B /* GlideClient+Encode.m */; };
+		5F74BA02A20A1525EE8F8450EC46CCC3 /* Pods-WorldBeers-WorldBeersUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7163BAA55764B0BA95CE4AE8BF77641B /* Pods-WorldBeers-WorldBeersUITests-dummy.m */; };
+		69C2A6DE0C785831197356E430382E71 /* Glide.h in Headers */ = {isa = PBXBuildFile; fileRef = 445B3985361D93EA24E95D1B594C8642 /* Glide.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7FAD8D35632CA0D287A339ADA797A9A0 /* GlideClient+Background.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E2B5F386EE151C7E6719C55645E12EE /* GlideClient+Background.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		860B673811D88220366DBD28BD7EB34F /* Pods-WorldBeersTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFB0349246E4F29B0C41A4A651124649 /* Pods-WorldBeersTests-dummy.m */; };
+		86A48956EEF3394F0E6F7D7F90BB74D8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		8A49BF49F5EE4DACDBD0B6D3DF4ECC42 /* GlideClient+Adjustments.m in Sources */ = {isa = PBXBuildFile; fileRef = 9027FA38C1E5A5EE6F6D56A64A366841 /* GlideClient+Adjustments.m */; };
+		92F33635D7096FD92DC9053942B564BF /* GlideClient+Encode.h in Headers */ = {isa = PBXBuildFile; fileRef = 705911A30C97B740A3521807EB1E6229 /* GlideClient+Encode.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		976064D9E6F9A7272B27E4AD38095F4C /* GlideClient+Border.h in Headers */ = {isa = PBXBuildFile; fileRef = 447B81D320A7AE6FB06C8649792D57CA /* GlideClient+Border.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D166E0581B60A8A6C32B1FC4AC34984 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9DB7AA5C884CFF5D265831D9C18F006F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		9EE637BE71008D8C94A7C5FE3F1D7EED /* GlideUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = F5B796878384A7C85181FF9BC7F47A9A /* GlideUtils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C808BC1732380701EC3AABBCB8B924C1 /* GlideUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F180A8959E4F849145D98C49889F736 /* GlideUtils.m */; };
+		CDB463335185DB63E8BC52F2205FF418 /* Glide-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 45C80CD1AF35D4023909BA3943F9F784 /* Glide-dummy.m */; };
+		D099CF7CADE60FDCB6236F969E045A87 /* Pods-WorldBeers-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EC3208A3C7AC00A2ACD1C4CD273800B /* Pods-WorldBeers-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D148A6055243180ADFD9716CEA65C929 /* GlideClient+Crop.m in Sources */ = {isa = PBXBuildFile; fileRef = 1DE3889B5FCB1966B78402C52626154B /* GlideClient+Crop.m */; };
+		E7715A73B230928EE2C53984E314A1F2 /* Pods-WorldBeers-WorldBeersUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94AB6234D4C8D4B8062470973A2BB34F /* Pods-WorldBeers-WorldBeersUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EAD93B5F32E696E087930B9C65883CDA /* GlideClient+Watermarks.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DED54DC837C9776AEADB89FC8799516 /* GlideClient+Watermarks.m */; };
+		EDB9E2A994E62A62056E86A7011D7BAB /* GlideClient+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 668A3A272ED5EF4F3FFFC6C7DCC42E48 /* GlideClient+Size.m */; };
+		EF2DF52A50F78B210262B27D08CDB2ED /* GlideClient+Background.m in Sources */ = {isa = PBXBuildFile; fileRef = C51844703E05B58084C0539BF02EB313 /* GlideClient+Background.m */; };
+		F03BC13823CF93E0D8BD0E21B1749A49 /* GlideClient+Effects.m in Sources */ = {isa = PBXBuildFile; fileRef = 54CD1B08EF8AD92DBC33D008DCE43F83 /* GlideClient+Effects.m */; };
+		F512122A9555F173D3B2AB2BD732E948 /* GlideClient+PixelDensity.h in Headers */ = {isa = PBXBuildFile; fileRef = 852ED43822A868A7B84CF4AE16D2B45F /* GlideClient+PixelDensity.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F5888E866DD87B526E5B62E0FA2CF55C /* GlideClient+PixelDensity.m in Sources */ = {isa = PBXBuildFile; fileRef = 1EC1B593F022669EBF1373B790D9CEC0 /* GlideClient+PixelDensity.m */; };
+		FCBD849E3889085BAFEDEC652C128769 /* Glide-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 735698D24A513E6EEDAE8EBA13D9BCE6 /* Glide-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF39B0E710AB80A82211316141672CA6 /* GlideClient+Orientation.m in Sources */ = {isa = PBXBuildFile; fileRef = 659F9C4AC6CA7E9B8ABF3A5E4619AD3B /* GlideClient+Orientation.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6795B7933F268AA5FC8AF056B01E786E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45799BB631E63AFF6EB3385DE648E5B5;
+			remoteInfo = Glide;
+		};
+		946310A289990D721DE131F0E1449611 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45799BB631E63AFF6EB3385DE648E5B5;
+			remoteInfo = Glide;
+		};
+		9C9C12410D09446B9910ACB122F93CEE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F1EF8976AFFF8C7CC5333A3E90964D;
+			remoteInfo = "Pods-WorldBeers";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D7FC9E8F35595F98FDE45399259F3BD /* Pods-WorldBeers */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WorldBeers"; path = Pods_WorldBeers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E02988D892FBA9F4BB38DA5EC3202F2 /* GlideClient+Watermarks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GlideClient+Watermarks.h"; path = "Glide/GlideClient+Watermarks.h"; sourceTree = "<group>"; };
+		0EB57D3F1CEE1BE82A5B166B8B256FAF /* Glide.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Glide.modulemap; sourceTree = "<group>"; };
+		0F180A8959E4F849145D98C49889F736 /* GlideUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GlideUtils.m; path = Glide/GlideUtils.m; sourceTree = "<group>"; };
+		103CEE4FEC383440A5533642DAF750B6 /* Pods-WorldBeers-WorldBeersUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldBeers-WorldBeersUITests.release.xcconfig"; sourceTree = "<group>"; };
+		15D37FECCAB51F7DE8E400FF77E7403E /* Pods-WorldBeers.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldBeers.release.xcconfig"; sourceTree = "<group>"; };
+		1DE3889B5FCB1966B78402C52626154B /* GlideClient+Crop.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GlideClient+Crop.m"; path = "Glide/GlideClient+Crop.m"; sourceTree = "<group>"; };
+		1EC1B593F022669EBF1373B790D9CEC0 /* GlideClient+PixelDensity.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GlideClient+PixelDensity.m"; path = "Glide/GlideClient+PixelDensity.m"; sourceTree = "<group>"; };
+		222BE1996A77D2E49C77B38BA288FEEA /* Pods-WorldBeers.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldBeers.debug.xcconfig"; sourceTree = "<group>"; };
+		28AE0BDC868D5A787160DDC6AB37DBDD /* Pods-WorldBeersTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorldBeersTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2AD7AE77446D0FA03FDA8138414278BB /* Pods-WorldBeersTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldBeersTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		2F0F5867AD7B880DE45119DF25A47186 /* Pods-WorldBeers-WorldBeersUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WorldBeers-WorldBeersUITests.modulemap"; sourceTree = "<group>"; };
+		2F9316709B57BCEF794811738ACA78A3 /* Glide */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Glide; path = Glide.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E7972483CF666885A7E8058AF5EF98 /* Pods-WorldBeersTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldBeersTests.release.xcconfig"; sourceTree = "<group>"; };
+		445B3985361D93EA24E95D1B594C8642 /* Glide.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Glide.h; path = Glide/Glide.h; sourceTree = "<group>"; };
+		447B81D320A7AE6FB06C8649792D57CA /* GlideClient+Border.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GlideClient+Border.h"; path = "Glide/GlideClient+Border.h"; sourceTree = "<group>"; };
+		45C80CD1AF35D4023909BA3943F9F784 /* Glide-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Glide-dummy.m"; sourceTree = "<group>"; };
+		4DED54DC837C9776AEADB89FC8799516 /* GlideClient+Watermarks.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GlideClient+Watermarks.m"; path = "Glide/GlideClient+Watermarks.m"; sourceTree = "<group>"; };
+		4F185F010DDD177489C0F966A29F6B27 /* Pods-WorldBeersTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldBeersTests.debug.xcconfig"; sourceTree = "<group>"; };
+		54CD1B08EF8AD92DBC33D008DCE43F83 /* GlideClient+Effects.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GlideClient+Effects.m"; path = "Glide/GlideClient+Effects.m"; sourceTree = "<group>"; };
+		5795EDDFD3803D01CEAA116BFBD8BF86 /* Pods-WorldBeers-WorldBeersUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WorldBeers-WorldBeersUITests"; path = Pods_WorldBeers_WorldBeersUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62EF6D33A45910C2A40F87CBA9AA7F10 /* Pods-WorldBeers-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldBeers-acknowledgements.plist"; sourceTree = "<group>"; };
+		659F9C4AC6CA7E9B8ABF3A5E4619AD3B /* GlideClient+Orientation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GlideClient+Orientation.m"; path = "Glide/GlideClient+Orientation.m"; sourceTree = "<group>"; };
+		668A3A272ED5EF4F3FFFC6C7DCC42E48 /* GlideClient+Size.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GlideClient+Size.m"; path = "Glide/GlideClient+Size.m"; sourceTree = "<group>"; };
+		68BC7EC1108253258CA1480A87751FDE /* GlideClient.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GlideClient.m; path = Glide/GlideClient.m; sourceTree = "<group>"; };
+		6EC3208A3C7AC00A2ACD1C4CD273800B /* Pods-WorldBeers-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldBeers-umbrella.h"; sourceTree = "<group>"; };
+		705911A30C97B740A3521807EB1E6229 /* GlideClient+Encode.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GlideClient+Encode.h"; path = "Glide/GlideClient+Encode.h"; sourceTree = "<group>"; };
+		7163BAA55764B0BA95CE4AE8BF77641B /* Pods-WorldBeers-WorldBeersUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldBeers-WorldBeersUITests-dummy.m"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		735698D24A513E6EEDAE8EBA13D9BCE6 /* Glide-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Glide-umbrella.h"; sourceTree = "<group>"; };
+		7BD4B1744160BF6FABB1411043037272 /* Pods-WorldBeers-WorldBeersUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldBeers-WorldBeersUITests-frameworks.sh"; sourceTree = "<group>"; };
+		7F8898F56F3B8582530D3B25B6C17696 /* Glide-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Glide-Info.plist"; sourceTree = "<group>"; };
+		852ED43822A868A7B84CF4AE16D2B45F /* GlideClient+PixelDensity.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GlideClient+PixelDensity.h"; path = "Glide/GlideClient+PixelDensity.h"; sourceTree = "<group>"; };
+		8613549635030C94FA70CC4769B4FCE3 /* GlideClient.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GlideClient.h; path = Glide/GlideClient.h; sourceTree = "<group>"; };
+		89AAE3D3D85E52A8715429808F81A5BD /* Pods-WorldBeers-WorldBeersUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldBeers-WorldBeersUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		8A62D9C8D68852B49F827ECD661CAF05 /* Pods-WorldBeers-WorldBeersUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WorldBeers-WorldBeersUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		8E2B5F386EE151C7E6719C55645E12EE /* GlideClient+Background.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GlideClient+Background.h"; path = "Glide/GlideClient+Background.h"; sourceTree = "<group>"; };
+		9027FA38C1E5A5EE6F6D56A64A366841 /* GlideClient+Adjustments.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GlideClient+Adjustments.m"; path = "Glide/GlideClient+Adjustments.m"; sourceTree = "<group>"; };
+		94AB6234D4C8D4B8062470973A2BB34F /* Pods-WorldBeers-WorldBeersUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldBeers-WorldBeersUITests-umbrella.h"; sourceTree = "<group>"; };
+		9878390FAD52B69634978351BB39A6C6 /* Glide.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Glide.debug.xcconfig; sourceTree = "<group>"; };
+		9C3201D1054DFABAB4AB663F95DA8A3F /* Pods-WorldBeers-WorldBeersUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldBeers-WorldBeersUITests-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9ED1855422A06699E764AE79E278B26A /* GlideClient+Orientation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GlideClient+Orientation.h"; path = "Glide/GlideClient+Orientation.h"; sourceTree = "<group>"; };
+		A2C3B0724F5C37D612AD2D5C03FC9CC8 /* Pods-WorldBeers-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WorldBeers-frameworks.sh"; sourceTree = "<group>"; };
+		A33BB94D5466A893957D6E3AD43D0A47 /* Pods-WorldBeersTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldBeersTests-Info.plist"; sourceTree = "<group>"; };
+		A35081F5756A79BEF264C31E8891701E /* Pods-WorldBeersTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WorldBeersTests.modulemap"; sourceTree = "<group>"; };
+		A74842A375AB6A5BFF33D4312C647907 /* GlideClient+Crop.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GlideClient+Crop.h"; path = "Glide/GlideClient+Crop.h"; sourceTree = "<group>"; };
+		AA6D5245E395AABC63FADBBC7DF67876 /* Pods-WorldBeersTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-WorldBeersTests"; path = Pods_WorldBeersTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF8D0E793594A86B21E82CE562E187BE /* Pods-WorldBeers-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorldBeers-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B0BAFBB96A2577F3253849934E00834B /* GlideClient+Encode.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GlideClient+Encode.m"; path = "Glide/GlideClient+Encode.m"; sourceTree = "<group>"; };
+		B1DA116B5C815CF0E869E0570C53C94B /* GlideClient+Size.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GlideClient+Size.h"; path = "Glide/GlideClient+Size.h"; sourceTree = "<group>"; };
+		C2E6132722D60740C076A10FAF5D896F /* Pods-WorldBeers-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldBeers-dummy.m"; sourceTree = "<group>"; };
+		C51844703E05B58084C0539BF02EB313 /* GlideClient+Background.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GlideClient+Background.m"; path = "Glide/GlideClient+Background.m"; sourceTree = "<group>"; };
+		CAB71E8A9CEE5362371250FF214453CE /* GlideClient+Effects.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GlideClient+Effects.h"; path = "Glide/GlideClient+Effects.h"; sourceTree = "<group>"; };
+		CC4CCE7C35D423EDE8909916DA7065BA /* GlideClient+Adjustments.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GlideClient+Adjustments.h"; path = "Glide/GlideClient+Adjustments.h"; sourceTree = "<group>"; };
+		CFB0349246E4F29B0C41A4A651124649 /* Pods-WorldBeersTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WorldBeersTests-dummy.m"; sourceTree = "<group>"; };
+		CFD7791A92CCE1202123CD9F5D0BC350 /* Glide.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Glide.release.xcconfig; sourceTree = "<group>"; };
+		D07476AAD535430CD8D821C49602A1EF /* GlideClient+Border.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GlideClient+Border.m"; path = "Glide/GlideClient+Border.m"; sourceTree = "<group>"; };
+		DE21E37BFBDFBAEE33450A5CA669B381 /* Pods-WorldBeersTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-WorldBeersTests-umbrella.h"; sourceTree = "<group>"; };
+		DED1C809141F0D3BD35EA10178282C9C /* Pods-WorldBeers-WorldBeersUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WorldBeers-WorldBeersUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DF212E723B7F6B765C2E8952970A144F /* Pods-WorldBeers-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WorldBeers-Info.plist"; sourceTree = "<group>"; };
+		E1C022D19ECD0EF7D6C7023B2C03D16C /* Glide-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Glide-prefix.pch"; sourceTree = "<group>"; };
+		F5B796878384A7C85181FF9BC7F47A9A /* GlideUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = GlideUtils.h; path = Glide/GlideUtils.h; sourceTree = "<group>"; };
+		FD8CE46846C5CF6F0F2D9D30DCBD7A6C /* Pods-WorldBeers.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-WorldBeers.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1C4EE07A09C8D5431F78E432E66435E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				577725E02CC8C642DCAD9752C85DEC6B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1FDA83FF3D48E2FBF0630BCF0E82FDBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86A48956EEF3394F0E6F7D7F90BB74D8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		764121DBF9BB97A99D9C3F7322064F07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9DB7AA5C884CFF5D265831D9C18F006F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90BC5A760BB194F5B846B460CA308E2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D166E0581B60A8A6C32B1FC4AC34984 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E2932093594FE7697D3ECD35CF62A2E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F9316709B57BCEF794811738ACA78A3 /* Glide */,
+				0D7FC9E8F35595F98FDE45399259F3BD /* Pods-WorldBeers */,
+				5795EDDFD3803D01CEAA116BFBD8BF86 /* Pods-WorldBeers-WorldBeersUITests */,
+				AA6D5245E395AABC63FADBBC7DF67876 /* Pods-WorldBeersTests */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4FF65AB6340386A0D436CFB333A31974 /* Pods-WorldBeersTests */ = {
+			isa = PBXGroup;
+			children = (
+				A35081F5756A79BEF264C31E8891701E /* Pods-WorldBeersTests.modulemap */,
+				28AE0BDC868D5A787160DDC6AB37DBDD /* Pods-WorldBeersTests-acknowledgements.markdown */,
+				2AD7AE77446D0FA03FDA8138414278BB /* Pods-WorldBeersTests-acknowledgements.plist */,
+				CFB0349246E4F29B0C41A4A651124649 /* Pods-WorldBeersTests-dummy.m */,
+				A33BB94D5466A893957D6E3AD43D0A47 /* Pods-WorldBeersTests-Info.plist */,
+				DE21E37BFBDFBAEE33450A5CA669B381 /* Pods-WorldBeersTests-umbrella.h */,
+				4F185F010DDD177489C0F966A29F6B27 /* Pods-WorldBeersTests.debug.xcconfig */,
+				42E7972483CF666885A7E8058AF5EF98 /* Pods-WorldBeersTests.release.xcconfig */,
+			);
+			name = "Pods-WorldBeersTests";
+			path = "Target Support Files/Pods-WorldBeersTests";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		91358756ACA610F6AB37863D922A68C5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F803768962B04415F246C64E19A586BB /* Pods-WorldBeers */,
+				D275019943663CA73109C956BE15ED0B /* Pods-WorldBeers-WorldBeersUITests */,
+				4FF65AB6340386A0D436CFB333A31974 /* Pods-WorldBeersTests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		96646083DB610F51FF119433ED9B505D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CAE50EFCD86A3E26B578678055FE6806 /* Glide */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		CAE50EFCD86A3E26B578678055FE6806 /* Glide */ = {
+			isa = PBXGroup;
+			children = (
+				445B3985361D93EA24E95D1B594C8642 /* Glide.h */,
+				8613549635030C94FA70CC4769B4FCE3 /* GlideClient.h */,
+				68BC7EC1108253258CA1480A87751FDE /* GlideClient.m */,
+				CC4CCE7C35D423EDE8909916DA7065BA /* GlideClient+Adjustments.h */,
+				9027FA38C1E5A5EE6F6D56A64A366841 /* GlideClient+Adjustments.m */,
+				8E2B5F386EE151C7E6719C55645E12EE /* GlideClient+Background.h */,
+				C51844703E05B58084C0539BF02EB313 /* GlideClient+Background.m */,
+				447B81D320A7AE6FB06C8649792D57CA /* GlideClient+Border.h */,
+				D07476AAD535430CD8D821C49602A1EF /* GlideClient+Border.m */,
+				A74842A375AB6A5BFF33D4312C647907 /* GlideClient+Crop.h */,
+				1DE3889B5FCB1966B78402C52626154B /* GlideClient+Crop.m */,
+				CAB71E8A9CEE5362371250FF214453CE /* GlideClient+Effects.h */,
+				54CD1B08EF8AD92DBC33D008DCE43F83 /* GlideClient+Effects.m */,
+				705911A30C97B740A3521807EB1E6229 /* GlideClient+Encode.h */,
+				B0BAFBB96A2577F3253849934E00834B /* GlideClient+Encode.m */,
+				9ED1855422A06699E764AE79E278B26A /* GlideClient+Orientation.h */,
+				659F9C4AC6CA7E9B8ABF3A5E4619AD3B /* GlideClient+Orientation.m */,
+				852ED43822A868A7B84CF4AE16D2B45F /* GlideClient+PixelDensity.h */,
+				1EC1B593F022669EBF1373B790D9CEC0 /* GlideClient+PixelDensity.m */,
+				B1DA116B5C815CF0E869E0570C53C94B /* GlideClient+Size.h */,
+				668A3A272ED5EF4F3FFFC6C7DCC42E48 /* GlideClient+Size.m */,
+				0E02988D892FBA9F4BB38DA5EC3202F2 /* GlideClient+Watermarks.h */,
+				4DED54DC837C9776AEADB89FC8799516 /* GlideClient+Watermarks.m */,
+				F5B796878384A7C85181FF9BC7F47A9A /* GlideUtils.h */,
+				0F180A8959E4F849145D98C49889F736 /* GlideUtils.m */,
+				D51D94D2CE126B20665877F49993FE6A /* Support Files */,
+			);
+			name = Glide;
+			path = Glide;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				96646083DB610F51FF119433ED9B505D /* Pods */,
+				1E2932093594FE7697D3ECD35CF62A2E /* Products */,
+				91358756ACA610F6AB37863D922A68C5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D275019943663CA73109C956BE15ED0B /* Pods-WorldBeers-WorldBeersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F0F5867AD7B880DE45119DF25A47186 /* Pods-WorldBeers-WorldBeersUITests.modulemap */,
+				DED1C809141F0D3BD35EA10178282C9C /* Pods-WorldBeers-WorldBeersUITests-acknowledgements.markdown */,
+				89AAE3D3D85E52A8715429808F81A5BD /* Pods-WorldBeers-WorldBeersUITests-acknowledgements.plist */,
+				7163BAA55764B0BA95CE4AE8BF77641B /* Pods-WorldBeers-WorldBeersUITests-dummy.m */,
+				7BD4B1744160BF6FABB1411043037272 /* Pods-WorldBeers-WorldBeersUITests-frameworks.sh */,
+				9C3201D1054DFABAB4AB663F95DA8A3F /* Pods-WorldBeers-WorldBeersUITests-Info.plist */,
+				94AB6234D4C8D4B8062470973A2BB34F /* Pods-WorldBeers-WorldBeersUITests-umbrella.h */,
+				8A62D9C8D68852B49F827ECD661CAF05 /* Pods-WorldBeers-WorldBeersUITests.debug.xcconfig */,
+				103CEE4FEC383440A5533642DAF750B6 /* Pods-WorldBeers-WorldBeersUITests.release.xcconfig */,
+			);
+			name = "Pods-WorldBeers-WorldBeersUITests";
+			path = "Target Support Files/Pods-WorldBeers-WorldBeersUITests";
+			sourceTree = "<group>";
+		};
+		D51D94D2CE126B20665877F49993FE6A /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EB57D3F1CEE1BE82A5B166B8B256FAF /* Glide.modulemap */,
+				45C80CD1AF35D4023909BA3943F9F784 /* Glide-dummy.m */,
+				7F8898F56F3B8582530D3B25B6C17696 /* Glide-Info.plist */,
+				E1C022D19ECD0EF7D6C7023B2C03D16C /* Glide-prefix.pch */,
+				735698D24A513E6EEDAE8EBA13D9BCE6 /* Glide-umbrella.h */,
+				9878390FAD52B69634978351BB39A6C6 /* Glide.debug.xcconfig */,
+				CFD7791A92CCE1202123CD9F5D0BC350 /* Glide.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Glide";
+			sourceTree = "<group>";
+		};
+		F803768962B04415F246C64E19A586BB /* Pods-WorldBeers */ = {
+			isa = PBXGroup;
+			children = (
+				FD8CE46846C5CF6F0F2D9D30DCBD7A6C /* Pods-WorldBeers.modulemap */,
+				AF8D0E793594A86B21E82CE562E187BE /* Pods-WorldBeers-acknowledgements.markdown */,
+				62EF6D33A45910C2A40F87CBA9AA7F10 /* Pods-WorldBeers-acknowledgements.plist */,
+				C2E6132722D60740C076A10FAF5D896F /* Pods-WorldBeers-dummy.m */,
+				A2C3B0724F5C37D612AD2D5C03FC9CC8 /* Pods-WorldBeers-frameworks.sh */,
+				DF212E723B7F6B765C2E8952970A144F /* Pods-WorldBeers-Info.plist */,
+				6EC3208A3C7AC00A2ACD1C4CD273800B /* Pods-WorldBeers-umbrella.h */,
+				222BE1996A77D2E49C77B38BA288FEEA /* Pods-WorldBeers.debug.xcconfig */,
+				15D37FECCAB51F7DE8E400FF77E7403E /* Pods-WorldBeers.release.xcconfig */,
+			);
+			name = "Pods-WorldBeers";
+			path = "Target Support Files/Pods-WorldBeers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0CAD89B2F24F118A493EC8197928E773 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7715A73B230928EE2C53984E314A1F2 /* Pods-WorldBeers-WorldBeersUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1BBD80A2AAB269C6B17948D36E99569E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54A4ADCD275A9168E5C885E90BD2A224 /* Pods-WorldBeersTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62B8469ED0135376BA7582E052C59B4F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D099CF7CADE60FDCB6236F969E045A87 /* Pods-WorldBeers-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81982C3D5264F0689BD186AFDA61962 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				69C2A6DE0C785831197356E430382E71 /* Glide.h in Headers */,
+				FCBD849E3889085BAFEDEC652C128769 /* Glide-umbrella.h in Headers */,
+				2E9249F55FF3184FF87777A907D61ED5 /* GlideClient.h in Headers */,
+				3346757CF5EF86B26BECAF7258B4F97A /* GlideClient+Adjustments.h in Headers */,
+				7FAD8D35632CA0D287A339ADA797A9A0 /* GlideClient+Background.h in Headers */,
+				976064D9E6F9A7272B27E4AD38095F4C /* GlideClient+Border.h in Headers */,
+				5C6A1B7976CB94785D152F71B4DAC5E0 /* GlideClient+Crop.h in Headers */,
+				11FBF74AA8D9A50C4327FD7B2BAC3950 /* GlideClient+Effects.h in Headers */,
+				92F33635D7096FD92DC9053942B564BF /* GlideClient+Encode.h in Headers */,
+				36101A83FE6B53DC27DBDA022D99FFEC /* GlideClient+Orientation.h in Headers */,
+				F512122A9555F173D3B2AB2BD732E948 /* GlideClient+PixelDensity.h in Headers */,
+				14EBCCCDE04C515FBBBF5D5B28D73D79 /* GlideClient+Size.h in Headers */,
+				1F12E5065655A9BA5FD3B91951C62E79 /* GlideClient+Watermarks.h in Headers */,
+				9EE637BE71008D8C94A7C5FE3F1D7EED /* GlideUtils.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		45799BB631E63AFF6EB3385DE648E5B5 /* Glide */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2D48DECF5B070B4935BFE5B41AA2D19 /* Build configuration list for PBXNativeTarget "Glide" */;
+			buildPhases = (
+				D81982C3D5264F0689BD186AFDA61962 /* Headers */,
+				8313BF487E02B290E94FDDCAC64F947A /* Sources */,
+				90BC5A760BB194F5B846B460CA308E2E /* Frameworks */,
+				39F38B4BF1872B06241199D7C70A6E41 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Glide;
+			productName = Glide;
+			productReference = 2F9316709B57BCEF794811738ACA78A3 /* Glide */;
+			productType = "com.apple.product-type.framework";
+		};
+		8E891653072A1E13A218E644671618AC /* Pods-WorldBeersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4724C20438B7CAE3EDE2E79A1B19848 /* Build configuration list for PBXNativeTarget "Pods-WorldBeersTests" */;
+			buildPhases = (
+				1BBD80A2AAB269C6B17948D36E99569E /* Headers */,
+				B22EEFE67CE0A574212917828045F38D /* Sources */,
+				1FDA83FF3D48E2FBF0630BCF0E82FDBA /* Frameworks */,
+				1BC89046D88C4A06D4964D7D87EBEDA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9AC01E297074687839829348D798B275 /* PBXTargetDependency */,
+			);
+			name = "Pods-WorldBeersTests";
+			productName = Pods_WorldBeersTests;
+			productReference = AA6D5245E395AABC63FADBBC7DF67876 /* Pods-WorldBeersTests */;
+			productType = "com.apple.product-type.framework";
+		};
+		BF00738FEA0993CEFED28A679BA2F799 /* Pods-WorldBeers-WorldBeersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C810F9A88BC306A5A8A6678CA6ED871E /* Build configuration list for PBXNativeTarget "Pods-WorldBeers-WorldBeersUITests" */;
+			buildPhases = (
+				0CAD89B2F24F118A493EC8197928E773 /* Headers */,
+				8EEECF2644DE762325E51A73ECC65C9F /* Sources */,
+				1C4EE07A09C8D5431F78E432E66435E0 /* Frameworks */,
+				A5724B0A744EBB4B6489A2CD7DFE1558 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9D12523F7D3071E745B9DAB8F45A3993 /* PBXTargetDependency */,
+			);
+			name = "Pods-WorldBeers-WorldBeersUITests";
+			productName = Pods_WorldBeers_WorldBeersUITests;
+			productReference = 5795EDDFD3803D01CEAA116BFBD8BF86 /* Pods-WorldBeers-WorldBeersUITests */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9F1EF8976AFFF8C7CC5333A3E90964D /* Pods-WorldBeers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75827699597DCE7BB88C4BCBCDB448F2 /* Build configuration list for PBXNativeTarget "Pods-WorldBeers" */;
+			buildPhases = (
+				62B8469ED0135376BA7582E052C59B4F /* Headers */,
+				2DA3DD15F9A2AE1ED6D4D8D3C1A14A87 /* Sources */,
+				764121DBF9BB97A99D9C3F7322064F07 /* Frameworks */,
+				C7E00F27B535E0E4205A31BA4FD31C08 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				272E07A79B70DB1BDAF58DA40B2394AB /* PBXTargetDependency */,
+			);
+			name = "Pods-WorldBeers";
+			productName = Pods_WorldBeers;
+			productReference = 0D7FC9E8F35595F98FDE45399259F3BD /* Pods-WorldBeers */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 1E2932093594FE7697D3ECD35CF62A2E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45799BB631E63AFF6EB3385DE648E5B5 /* Glide */,
+				E9F1EF8976AFFF8C7CC5333A3E90964D /* Pods-WorldBeers */,
+				BF00738FEA0993CEFED28A679BA2F799 /* Pods-WorldBeers-WorldBeersUITests */,
+				8E891653072A1E13A218E644671618AC /* Pods-WorldBeersTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1BC89046D88C4A06D4964D7D87EBEDA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		39F38B4BF1872B06241199D7C70A6E41 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A5724B0A744EBB4B6489A2CD7DFE1558 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C7E00F27B535E0E4205A31BA4FD31C08 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DA3DD15F9A2AE1ED6D4D8D3C1A14A87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BB8FF168D0BCFA92DCED66AE4617A06 /* Pods-WorldBeers-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8313BF487E02B290E94FDDCAC64F947A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDB463335185DB63E8BC52F2205FF418 /* Glide-dummy.m in Sources */,
+				3E51980F72BEF4F71D30FC3FF79BAD9F /* GlideClient.m in Sources */,
+				8A49BF49F5EE4DACDBD0B6D3DF4ECC42 /* GlideClient+Adjustments.m in Sources */,
+				EF2DF52A50F78B210262B27D08CDB2ED /* GlideClient+Background.m in Sources */,
+				1DD76A2F433F4BA7E58961F6A383D667 /* GlideClient+Border.m in Sources */,
+				D148A6055243180ADFD9716CEA65C929 /* GlideClient+Crop.m in Sources */,
+				F03BC13823CF93E0D8BD0E21B1749A49 /* GlideClient+Effects.m in Sources */,
+				5D278A990B8752F1FB4501790FA1919C /* GlideClient+Encode.m in Sources */,
+				FF39B0E710AB80A82211316141672CA6 /* GlideClient+Orientation.m in Sources */,
+				F5888E866DD87B526E5B62E0FA2CF55C /* GlideClient+PixelDensity.m in Sources */,
+				EDB9E2A994E62A62056E86A7011D7BAB /* GlideClient+Size.m in Sources */,
+				EAD93B5F32E696E087930B9C65883CDA /* GlideClient+Watermarks.m in Sources */,
+				C808BC1732380701EC3AABBCB8B924C1 /* GlideUtils.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8EEECF2644DE762325E51A73ECC65C9F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F74BA02A20A1525EE8F8450EC46CCC3 /* Pods-WorldBeers-WorldBeersUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B22EEFE67CE0A574212917828045F38D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				860B673811D88220366DBD28BD7EB34F /* Pods-WorldBeersTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		272E07A79B70DB1BDAF58DA40B2394AB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Glide;
+			target = 45799BB631E63AFF6EB3385DE648E5B5 /* Glide */;
+			targetProxy = 6795B7933F268AA5FC8AF056B01E786E /* PBXContainerItemProxy */;
+		};
+		9AC01E297074687839829348D798B275 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-WorldBeers";
+			target = E9F1EF8976AFFF8C7CC5333A3E90964D /* Pods-WorldBeers */;
+			targetProxy = 9C9C12410D09446B9910ACB122F93CEE /* PBXContainerItemProxy */;
+		};
+		9D12523F7D3071E745B9DAB8F45A3993 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Glide;
+			target = 45799BB631E63AFF6EB3385DE648E5B5 /* Glide */;
+			targetProxy = 946310A289990D721DE131F0E1449611 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2B9E26EAE2CD392AD762421F663075A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		4864D280CF77F1CA3D224A8ECA8C9ECB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9878390FAD52B69634978351BB39A6C6 /* Glide.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Glide/Glide-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Glide/Glide-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Glide/Glide.modulemap";
+				PRODUCT_MODULE_NAME = Glide;
+				PRODUCT_NAME = Glide;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		6EF5FC923C57C369DEB747291EF71ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 222BE1996A77D2E49C77B38BA288FEEA /* Pods-WorldBeers.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldBeers/Pods-WorldBeers-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldBeers/Pods-WorldBeers.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96BACCAC0AF595822949BE58EEBEB420 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 15D37FECCAB51F7DE8E400FF77E7403E /* Pods-WorldBeers.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldBeers/Pods-WorldBeers-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldBeers/Pods-WorldBeers.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CD08B3AE5B1B342154E902B3E4C39285 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 103CEE4FEC383440A5533642DAF750B6 /* Pods-WorldBeers-WorldBeersUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldBeers-WorldBeersUITests/Pods-WorldBeers-WorldBeersUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldBeers-WorldBeersUITests/Pods-WorldBeers-WorldBeersUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		D3ABAAA8D4C4E0BCD2E5FCEE46E26351 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F185F010DDD177489C0F966A29F6B27 /* Pods-WorldBeersTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldBeersTests/Pods-WorldBeersTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldBeersTests/Pods-WorldBeersTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D980E9F220C4A241C082E2AE61C1C532 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8A62D9C8D68852B49F827ECD661CAF05 /* Pods-WorldBeers-WorldBeersUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldBeers-WorldBeersUITests/Pods-WorldBeers-WorldBeersUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldBeers-WorldBeersUITests/Pods-WorldBeers-WorldBeersUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E7E74341F46389AC82169713580E340F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CFD7791A92CCE1202123CD9F5D0BC350 /* Glide.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Glide/Glide-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Glide/Glide-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Glide/Glide.modulemap";
+				PRODUCT_MODULE_NAME = Glide;
+				PRODUCT_NAME = Glide;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F97CE5BB5CC9EFEF8CD49FCF990F026C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E7972483CF666885A7E8058AF5EF98 /* Pods-WorldBeersTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-WorldBeersTests/Pods-WorldBeersTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-WorldBeersTests/Pods-WorldBeersTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B9E26EAE2CD392AD762421F663075A1 /* Debug */,
+				63FAF33E1C55B71A5F5A8B3CC8749F99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75827699597DCE7BB88C4BCBCDB448F2 /* Build configuration list for PBXNativeTarget "Pods-WorldBeers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6EF5FC923C57C369DEB747291EF71ABC /* Debug */,
+				96BACCAC0AF595822949BE58EEBEB420 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2D48DECF5B070B4935BFE5B41AA2D19 /* Build configuration list for PBXNativeTarget "Glide" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4864D280CF77F1CA3D224A8ECA8C9ECB /* Debug */,
+				E7E74341F46389AC82169713580E340F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C810F9A88BC306A5A8A6678CA6ED871E /* Build configuration list for PBXNativeTarget "Pods-WorldBeers-WorldBeersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D980E9F220C4A241C082E2AE61C1C532 /* Debug */,
+				CD08B3AE5B1B342154E902B3E4C39285 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4724C20438B7CAE3EDE2E79A1B19848 /* Build configuration list for PBXNativeTarget "Pods-WorldBeersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3ABAAA8D4C4E0BCD2E5FCEE46E26351 /* Debug */,
+				F97CE5BB5CC9EFEF8CD49FCF990F026C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
