@@ -43,7 +43,7 @@ class RequestAPI{
                                 beerData.name = $1 as? String
                                 break
                             case "description":
-                                beerData.description = $1 as? String
+                                beerData.descriptionBeer = $1 as? String
                                 break
                             case "image_url":
                                 beerData.image_url = $1 as? String

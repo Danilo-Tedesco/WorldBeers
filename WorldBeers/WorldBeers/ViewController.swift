@@ -7,11 +7,15 @@
 
 import UIKit
 
-class ViewController: UIViewController{
+class ViewController: UIViewController, UISearchBarDelegate{
 
     @IBOutlet weak var tableView: UITableView!
     
+    @IBOutlet weak var searchBar: UISearchBar!
+    
     private var beerViewModel: BeerDataViewModel!
+    
+    var filteredData: [BeerDataModel] = []
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -21,6 +25,8 @@ class ViewController: UIViewController{
         self.beerViewModel = BeerDataViewModel()
         self.beerViewModel.bindBeerViewModel = {
             DispatchQueue.main.async{
+                self.filteredData = self.beerViewModel.beersDataModel
+                
                 self.tableView.reloadData()
             }
         }
@@ -31,16 +37,28 @@ class ViewController: UIViewController{
         
         self.tableView.reloadData()
     }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        filteredData = self.beerViewModel.beersDataModel
+
+
+        if searchText.isEmpty == false {
+            filteredData = self.beerViewModel.filterNameAndDescription(searchText: searchText)
+        }
+        
+        tableView.reloadData()
+         
+    }
 }
 
 extension ViewController : UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return self.beerViewModel.beersDataModel.count
+        return filteredData.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "TableViewCell") as! TableViewCell
-        cell.setup(with: beerViewModel.beersDataModel[indexPath.row])
+        cell.setup(with: filteredData[indexPath.row])
         return cell
     }
 }
@@ -48,6 +66,7 @@ extension ViewController : UITableViewDataSource {
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController {
+            viewController.beerDataModel = beerViewModel.beersDataModel[indexPath.row]
               if let navigator = navigationController {
                   navigator.pushViewController(viewController, animated: true)
               }

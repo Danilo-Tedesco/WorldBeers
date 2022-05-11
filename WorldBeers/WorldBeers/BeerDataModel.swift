@@ -7,9 +7,13 @@
 
 import Foundation
 
-class BeerDataModel{
+class BeerDataModel: Equatable{
+    static func == (lhs: BeerDataModel, rhs: BeerDataModel) -> Bool {
+        return lhs.name == rhs.name && lhs.descriptionBeer == rhs.descriptionBeer
+    }
+    
     public var name: String?
-    public var description: String?
+    public var descriptionBeer: String?
     public var image_url: String?
     public var abv: Float?
     public var ibu: Int?

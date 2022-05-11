@@ -22,7 +22,7 @@ class TableViewCell : UITableViewCell {
     func setup(with beerData: BeerDataModel) {
         let url = URL(string: beerData.image_url ?? "")
         DispatchQueue.global().async {
-            let data = try? Data(contentsOf: url!) //make sure your image in this url does exist, otherwise unwrap in a if let check / try-catch
+            let data = try? Data(contentsOf: url!)
             DispatchQueue.main.async {
                 self.imageBeerView.image = UIImage(data: data!)
             }
@@ -30,7 +30,7 @@ class TableViewCell : UITableViewCell {
         
         self.labelTitle.text = beerData.name ?? ""
         
-        self.textViewDescription.text = beerData.description ?? ""
+        self.textViewDescription.text = beerData.descriptionBeer ?? ""
         
         self.labelABV.text = TableViewCell.GetABVString(beerData: beerData)
         
