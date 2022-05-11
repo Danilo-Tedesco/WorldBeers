@@ -17,6 +17,10 @@ class DetailViewController: UIViewController{
     
     public var beerDataModel: BeerDataModel!
     
+    static func instantiateViewController()->DetailViewController?{
+        return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         

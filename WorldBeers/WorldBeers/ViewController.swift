@@ -49,6 +49,15 @@ class ViewController: UIViewController, UISearchBarDelegate{
         tableView.reloadData()
          
     }
+    
+    func pushToDetailViewController(index: Int){
+        if let viewController = DetailViewController.instantiateViewController() {
+            viewController.beerDataModel = beerViewModel.beersDataModel[index]
+              if let navigator = navigationController {
+                  navigator.pushViewController(viewController, animated: true)
+              }
+          }
+    }
 }
 
 extension ViewController : UITableViewDataSource {
@@ -65,12 +74,7 @@ extension ViewController : UITableViewDataSource {
 
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        if let viewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController {
-            viewController.beerDataModel = beerViewModel.beersDataModel[indexPath.row]
-              if let navigator = navigationController {
-                  navigator.pushViewController(viewController, animated: true)
-              }
-          }
+        pushToDetailViewController(index: indexPath.row)
     }
 }
 
