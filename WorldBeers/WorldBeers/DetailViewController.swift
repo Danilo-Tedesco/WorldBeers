@@ -15,7 +15,9 @@ class DetailViewController: UIViewController{
     
     @IBOutlet weak var textViewBrewers_tips: UITextView!
     
-    public var beerDataModel: BeerDataModel!
+    public var beerDataModel: BeerDataViewModel!
+    
+    public var beerIndex: Int!
     
     static func instantiateViewController()->DetailViewController?{
         return UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "DetailViewController") as? DetailViewController
@@ -24,21 +26,11 @@ class DetailViewController: UIViewController{
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        self.title = beerDataModel.name
+        self.title = beerDataModel.beersDataModel[beerIndex].name
         
-        labelFirst_brewed.text = beerDataModel.first_brewed
-        textViewBrewers_tips.text = beerDataModel.brewers_tips
-        setTextViewFood_pairing()
+        labelFirst_brewed.text = beerDataModel.beersDataModel[beerIndex].first_brewed
+        textViewBrewers_tips.text = beerDataModel.beersDataModel[beerIndex].brewers_tips
+        textViewFood_pairing.text = beerDataModel.getFoodPairingString(index: beerIndex)
     }
     
-    func setTextViewFood_pairing(){
-        guard beerDataModel.food_pairing != [] else {
-            return
-        }
-        textViewFood_pairing.text = ""
-        for food_pair in beerDataModel.food_pairing {
-            textViewFood_pairing.text += food_pair + ";\n"
-        }
-        
-    }
 }

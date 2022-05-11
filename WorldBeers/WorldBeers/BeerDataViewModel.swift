@@ -11,7 +11,9 @@ class BeerDataViewModel: NSObject{
     
     public var beersDataModel: [BeerDataModel] = []{
         didSet{
-            self.bindBeerViewModel()
+            DispatchQueue.main.async{
+                self.bindBeerViewModel()
+            }
         }
     }
     
@@ -42,5 +44,22 @@ class BeerDataViewModel: NSObject{
             return false
         }
         return dataFiltered
+    }
+    
+    public func getFoodPairingString(index: Int)->String{
+        var textFood_pairing = ""
+        guard self.beersDataModel[index].food_pairing != [] else {
+            return ""
+        }
+        
+        var count: Int = 0
+        for food_pair in self.beersDataModel[index].food_pairing {
+            count += 1
+            textFood_pairing += food_pair + ";"
+            if(count != self.beersDataModel[index].food_pairing.count){
+                textFood_pairing += "\n"
+            }
+        }
+        return textFood_pairing
     }
 }

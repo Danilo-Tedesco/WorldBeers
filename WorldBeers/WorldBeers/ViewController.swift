@@ -7,7 +7,7 @@
 
 import UIKit
 
-class ViewController: UIViewController, UISearchBarDelegate{
+class ViewController: UIViewController{
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -22,43 +22,28 @@ class ViewController: UIViewController, UISearchBarDelegate{
         
         self.tableView.rowHeight = 200
         
+        //Instanzio il ViewModel
         self.beerViewModel = BeerDataViewModel()
+        
+        //Binding degli elementi in tabella
         self.beerViewModel.bindBeerViewModel = {
-            DispatchQueue.main.async{
-                self.filteredData = self.beerViewModel.beersDataModel
-                
-                self.tableView.reloadData()
-            }
+            self.filteredData = self.beerViewModel.beersDataModel
+            self.tableView.reloadData()
         }
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
         
-        self.tableView.reloadData()
-    }
-    
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
-        filteredData = self.beerViewModel.beersDataModel
-
-
-        if searchText.isEmpty == false {
-            filteredData = self.beerViewModel.filterNameAndDescription(searchText: searchText)
-        }
-        
-        tableView.reloadData()
-         
-    }
-    
     func pushToDetailViewController(index: Int){
         if let viewController = DetailViewController.instantiateViewController() {
-            viewController.beerDataModel = beerViewModel.beersDataModel[index]
+            viewController.beerDataModel = beerViewModel
+            viewController.beerIndex = index
               if let navigator = navigationController {
                   navigator.pushViewController(viewController, animated: true)
               }
           }
     }
 }
+
+// MARK: - TableView Data Source
 
 extension ViewController : UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
@@ -72,9 +57,24 @@ extension ViewController : UITableViewDataSource {
     }
 }
 
+// MARK: - TableView Delegate
+
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         pushToDetailViewController(index: indexPath.row)
     }
 }
 
+// MARK: - SearchBar Delegate
+
+extension ViewController : UISearchBarDelegate {
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
+        filteredData = self.beerViewModel.beersDataModel
+
+        if searchText.isEmpty == false {
+            filteredData = self.beerViewModel.filterNameAndDescription(searchText: searchText)
+        }
+        
+        tableView.reloadData()
+    }
+}
