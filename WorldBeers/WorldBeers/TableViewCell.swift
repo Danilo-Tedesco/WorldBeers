@@ -20,11 +20,18 @@ class TableViewCell : UITableViewCell {
     }
     
     func setup(with beerData: BeerDataModel) {
+        //Rendo questa cella non riusabile
+        self.accessibilityIdentifier = ""
+        
         let url = URL(string: beerData.image_url ?? "")
         DispatchQueue.global().async {
             let data = try? Data(contentsOf: url!)
-            DispatchQueue.main.async {
-                self.imageBeerView.image = UIImage(data: data!)
+            if(data != nil){
+                DispatchQueue.main.async {
+                    self.imageBeerView.image = UIImage(data: data!)
+                    //Solo quando l'immagine è stata caricata questa cella viene nuovamente resa riusabile
+                    self.accessibilityIdentifier = "TableViewCell"
+                }
             }
         }
         
