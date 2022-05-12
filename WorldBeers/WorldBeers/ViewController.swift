@@ -17,6 +17,10 @@ class ViewController: UIViewController{
     
     var filteredData: [BeerDataModel] = []
     
+    var searchBarStartEditing : Bool = false
+    
+    var keyboardDismiss : Bool = false
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -44,6 +48,16 @@ class ViewController: UIViewController{
           }
     }
     
+    func hideKeyboardWhenTappedAround() {
+        let tap = UITapGestureRecognizer(target: self, action: #selector(ViewController.dismissKeyboard))
+        tap.cancelsTouchesInView = false
+        view.addGestureRecognizer(tap)
+    }
+    
+    @objc func dismissKeyboard() {
+        self.searchBar.endEditing(true)
+        keyboardDismiss = true
+    }
 }
 
 // MARK: - TableView Data Source
@@ -64,7 +78,16 @@ extension ViewController : UITableViewDataSource {
 
 extension ViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        pushToDetailViewController(index: indexPath.row)
+        if !searchBarStartEditing{
+            pushToDetailViewController(index: indexPath.row)
+        }
+        else{
+            if keyboardDismiss{
+                searchBarStartEditing = false
+                keyboardDismiss = false
+            }
+                
+        }
     }
 }
 
@@ -80,8 +103,13 @@ extension ViewController : UISearchBarDelegate {
         
         tableView.reloadData()
     }
+        
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar) {
+        searchBarStartEditing = true
+    }
 }
 
+/*
 extension UIViewController{
     func hideKeyboardWhenTappedAround() {
         let tap = UITapGestureRecognizer(target: self, action: #selector(UIViewController.dismissKeyboard))
@@ -93,3 +121,5 @@ extension UIViewController{
         view.endEditing(true)
     }
 }
+ */
+ 
